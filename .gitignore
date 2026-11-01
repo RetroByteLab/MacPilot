@@ -1,0 +1,59 @@
+# macOS and personal Xcode state
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Build products and caches
+build/
+.build/
+DerivedData/
+.swiftpm/
+Carthage/Build/
+*.app/
+*.dSYM/
+*.xcarchive/
+*.xcresult/
+*.ipa
+*.dmg
+*.pkg
+*.o
+*.a
+*.dylib
+*.so
+*.exe
+llama-cli
+llama-server
+llama-completion
+
+# Model weights (keep model source/configuration and licenses)
+*.gguf
+*.ggml
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.bin
+*.mlmodelc/
+
+# Machine-specific paths/configuration and diagnostic output
+.env
+.env.*
+!.env.example
+*.local
+*.local.xcconfig
+Local.xcconfig
+local.xcconfig
+local.properties
+*.log
+
+# Signing credentials and private keys
+*.p12
+*.pfx
+*.pem
+*.key
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+AuthKey_*
